@@ -1,0 +1,65 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+    }
+    header {
+    padding: 0;                 /* remove padding interno */
+    margin: 0;
+    background-color: #f0f0f0;  /* ou remova se não quiser fundo atrás da imagem */
+    border-bottom: 1px solid #ccc;
+    }
+
+    .banner-figure {
+  margin: 0;
+    }
+
+    .banner-figure img {
+  width: 100%;          /* faz a imagem ocupar toda a largura */
+  height: 180px;        /* ajuste conforme a altura desejada */
+  object-fit: cover;    /* garante que preencha sem distorcer */
+  display: block;       /* remove espaço extra abaixo da imagem */
+    }
+    .logo {
+      font-weight: bold;
+      color: #bbb;
+    }
+    .container {
+      display: flex;
+      padding: 20px;
+    }
+    aside {
+      width: 20%;
+      padding-right: 20px;
+    }
+    aside h3 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    aside a {
+      color: #2a5db0;
+      text-decoration: none;
+    }
+    main {
+      width: 60%;
+    }
+    .title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+    .right-sidebar {
+      width: 20%;
+      padding-left: 20px;
+    }
+
+  
+
